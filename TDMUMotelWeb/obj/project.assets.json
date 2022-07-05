@@ -1054,11 +1054,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\TDMUMotelWeb\\TDMUMotelWeb\\TDMUMotelWeb.csproj",
+      "projectUniqueName": "D:\\Project\\TDMUMotelWeb\\motel-api\\TDMUMotelWeb\\TDMUMotelWeb.csproj",
       "projectName": "TDMUMotelWeb",
-      "projectPath": "D:\\Project\\TDMUMotelWeb\\TDMUMotelWeb\\TDMUMotelWeb.csproj",
+      "projectPath": "D:\\Project\\TDMUMotelWeb\\motel-api\\TDMUMotelWeb\\TDMUMotelWeb.csproj",
       "packagesPath": "C:\\Users\\phamm\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\TDMUMotelWeb\\TDMUMotelWeb\\obj\\",
+      "outputPath": "D:\\Project\\TDMUMotelWeb\\motel-api\\TDMUMotelWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\phamm\\AppData\\Roaming\\NuGet\\NuGet.Config",

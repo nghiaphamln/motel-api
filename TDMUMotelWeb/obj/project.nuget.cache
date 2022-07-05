@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EV9PHiklHloyllLHSPxTCmWFJYQlImi82DKAKv5+PahwLW5tA8bnfdVgx7cJ52FTAjbTl4BfsCMsSuxh0Ov5pw==",
+  "dgSpecHash": "a5tIDwscIQ8FQR1wvf0oCs67Q8A5k8nU2wSU+jGIbzq8K3o+2M3TqjWCwmaWDyRTRDwncW3jTa9IVFsHDcOixg==",
   "success": true,
-  "projectFilePath": "D:\\Project\\TDMUMotelWeb\\TDMUMotelWeb\\TDMUMotelWeb.csproj",
+  "projectFilePath": "D:\\Project\\TDMUMotelWeb\\motel-api\\TDMUMotelWeb\\TDMUMotelWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\phamm\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\phamm\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
