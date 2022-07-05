@@ -8,4 +8,5 @@ public class AccountModel
     public string? Address { get; set; }
     public string? PhoneNumber { get; set; }
     public string? Avatar { get; set; }
+    public int Permission { get; set; }
 }
