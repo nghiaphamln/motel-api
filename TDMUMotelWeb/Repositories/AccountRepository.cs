@@ -13,7 +13,7 @@ public class AccountRepository
     {
         try
         {
-            AccountData.Instance.AddUser(accountModel);
+            AccountData.Instance.AddUser(accountModel);   
         }
         catch (Exception e)
         {
