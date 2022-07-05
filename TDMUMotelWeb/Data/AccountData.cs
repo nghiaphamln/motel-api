@@ -42,8 +42,10 @@ public class AccountData
             DataTable dtReturn = new();
             var connectToMotel = ConfigurationManager.ConnectionStrings["ConnectionStringToMotel"].ConnectionString;
             var mySql = new MySqlConnection(connectToMotel);
-            var cmd = new MySqlCommand("get_user_info");
-            cmd.CommandType = CommandType.StoredProcedure;
+            var cmd = new MySqlCommand("user_get")
+            {
+                CommandType = CommandType.StoredProcedure
+            };
             cmd.Parameters.AddWithValue("i_userid", userId);
             cmd.Connection = mySql;
             var dr = new MySqlDataAdapter(cmd);
