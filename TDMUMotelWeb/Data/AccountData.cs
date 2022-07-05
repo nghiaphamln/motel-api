@@ -16,8 +16,10 @@ public class AccountData
         {
             var connectToMotel = ConfigurationManager.ConnectionStrings["ConnectionStringToMotel"].ConnectionString;
             var mySql = new MySqlConnection(connectToMotel);
-            var cmd = new MySqlCommand("user_add");
-            cmd.CommandType = CommandType.StoredProcedure;
+            var cmd = new MySqlCommand("user_add")
+            {
+                CommandType = CommandType.StoredProcedure
+            };
             cmd.Parameters.AddWithValue("i_fullname", accountModel.Fullname);
             cmd.Parameters.AddWithValue("i_username", accountModel.Username);
             cmd.Parameters.AddWithValue("i_email", accountModel.Email);
